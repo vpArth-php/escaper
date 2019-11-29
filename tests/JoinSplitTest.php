@@ -34,6 +34,7 @@ class JoinSplitTest extends TestCase
     yield ['a', ['a']];
     yield ['#a', ['#a']];
     yield ['#a#.', ['#a.']];
+    yield ['#a#', ['#a#']];
     yield ['a.', ['a', '']];
     yield ['a.', ['a.'], 1];
     yield ['a#.', ['a#.'], 1];

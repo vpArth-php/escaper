@@ -26,6 +26,9 @@ class Escaper implements Splitter
       }
       $this->processToken($token, $delimiter, $flag, $word, $res);
     }
+    if ($flag) {
+      $word .= $this->escape;
+    }
     $res[] = $word;
 
     return $res;
