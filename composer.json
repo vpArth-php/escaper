@@ -1,0 +1,26 @@
+{
+    "name": "arth/escaper",
+    "description": "String tool for escape characters",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Deider",
+            "email": "arth.inbox@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Arth\\Util\\String\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\Util\\String\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    },
+    "require": {}
+}
