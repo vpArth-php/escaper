@@ -2,7 +2,7 @@
 
 namespace Arth\Util\String;
 
-class Escaper
+class Escaper implements Splitter
 {
   /** * @var string */
   protected $escape;
